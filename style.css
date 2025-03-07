@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padddng: 0;
+}
+
+.container {
+
+    border: 2px solid black;
+    width: 400px;
+    margin: 25px 520px;
+    border-radius: 30px;
+    background-color: rgba(68, 114, 151, 0.2);
+
+}
+
+.display {
+
+    height: 130px;
+    margin: 10px 5px;
+    font-size: 44px;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: right;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    width: 97%;
+
+}
+
+.but {
+
+    margin: 12px 30px;
+
+}
+
+.but button {
+
+    font-size: 30px;
+    padding: 10px 20px;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: white;
+    cursor: pointer;
+
+
+
+    &:hover {
+        background-color: #1e5670;
+        /* #b4c8cf; */
+    }
+}
+
+.h1 {
+
+    /* text-align: center; */
+    font-size: 30px;
+    margin-left: 581px;
+    color: white;
+
+}
+
+body {
+    background-image: url('calu.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100%100%;
+}
